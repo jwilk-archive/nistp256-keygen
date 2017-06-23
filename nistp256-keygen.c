@@ -32,7 +32,7 @@ int main(int argc, char **argv)
             n = 0;
     }
     if (n == 0) {
-        fprintf(stderr, "Usage: " PROGRAM_NAME "<n>\n");
+        fprintf(stderr, "Usage: " PROGRAM_NAME " <n>\n");
         exit(1);
     }
     char buffer[BUFSIZ];
